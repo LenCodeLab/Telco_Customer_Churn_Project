@@ -15,8 +15,9 @@ st.set_page_config(layout="wide", page_title="Telco Churn Dashboard", initial_si
 sns.set_style("whitegrid")
 
 DATA_PATHS = [
-    "~/myenv/projects/Telco_Customer_Churn_Project/clean_df.csv"
-
+     "clean_df.csv",
+    "df_clean.csv",
+    "telco_customer_churn_clean.csv"
 ]
 
 @st.cache_data
